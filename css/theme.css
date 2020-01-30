@@ -62,13 +62,3 @@ a {
   font-style: normal;
   color: var(--color-accent);
 }
-
-.btn {
-  background-color: var(--color-primary);
-  color: var(--color-whatever);
-}
-
-.btn-hover {
-  background-color: var(--color-primary-light);
-  color: var(--color-whatever);
-}
