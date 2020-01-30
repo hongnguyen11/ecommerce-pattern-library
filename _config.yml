@@ -2,4 +2,19 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Source+Code+Pro:400,700"
+  title: "Jadie"
+  description: A small local crystal store in Ottawa helps people understand the importance of bringing nature into their lives and love crystals and minerals
+    and the energy surrounding them.
+  font_url: "https://fonts.googleapis.com/css?family=Lato:400,700|Prata&display=swap"
+  colors:
+    patterns:
+      brand.logos: "--color-whatever"
+  rationales:
+    typefaces.primary:
+      Open Sans was selected because it's a modern font and popular and readable font for most users. It is to be used for all body copy and most situations.
+    typefaces.secondary:
+      Prata is only to be used for hightlighting text like headings, banners, etc.
+    colors.primary:
+      The primary colours represent earth and nature. They should be used for text and in foregrounds.
+    colors.secondary:
+      The secondary colours are more neutral, supporting the earth tones, and should be used for small elements.
