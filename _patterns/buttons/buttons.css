@@ -1,9 +1,9 @@
 .btn {
   background-color: var(--color-primary);
-  color: #fff;
+  color: var(--color-whatever);
 }
 
 .btn-hover {
   background-color: var(--color-primary-light);
-  color: #fff;
+  color: var(--color-whatever);
 }
