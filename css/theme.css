@@ -1,0 +1,64 @@
+:root {
+  --color-primary: #936F5D;
+  --color-primary-light: #B8AB8C;
+  --color-secondary: #BB5B34;
+  --color-accent: #000;
+  --color-neutral-beige: #929292;
+  --color-whatever: #E9DED6;
+
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: Prata, serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-style: normal;
+  color: var(--color-accent);
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-style: normal;
+  color: var(--color-accent)
+}
+
+h3 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-style: normal;
+  color: var(--color-accent);
+}
+
+h4 {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-style: normal;
+  color: var(--color-accent);
+}
+
+h5 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-style: normal;
+  color: var(--color-primary);
+}
+
+h6 {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-accent);
+}
+
+a {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-accent);
+}
