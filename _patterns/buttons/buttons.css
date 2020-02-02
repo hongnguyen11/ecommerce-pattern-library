@@ -6,5 +6,4 @@
 .btn:hover {
   background-color: var(--color-whatever);
   color: var(--color-accent);
-  border-color: var(--color-accent);
 }
