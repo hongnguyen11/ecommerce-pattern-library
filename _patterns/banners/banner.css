@@ -1,0 +1,19 @@
+.banner-homepage {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.banner-quiz {
+  position: relative;
+}
+
+.banner-content-quiz {
+  position: absolute;
+  top: 120px;
+  left: 300px;
+}
