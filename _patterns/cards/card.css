@@ -1,0 +1,11 @@
+.card-box {
+  text-decoration: none;
+}
+
+.typeofstone {
+  color: var(--color-neutral-beige);
+}
+
+.price {
+  color: var(--color-primary);
+}
