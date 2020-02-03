@@ -62,3 +62,7 @@ a {
   font-style: normal;
   color: var(--color-accent);
 }
+
+mark {
+  background-color: #fff;
+}
