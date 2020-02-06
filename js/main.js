@@ -1,5 +1,5 @@
 ---
 ---
 
-{% include_relative form-validation-helpers.js %}
+{% include_relative form-validation-helper.js %}
 {% pattern_js %}
