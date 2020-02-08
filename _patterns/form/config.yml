@@ -1,0 +1,13 @@
+title: "Form"
+description:
+  Form is used for sign in/sign up page and payment page.
+
+patterns:
+  Autocomplete:
+    title: "autocomplete"
+    description:
+      It is for provide input
+  Email:
+    title: "email"
+    description:
+      It is for email input
