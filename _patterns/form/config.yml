@@ -3,11 +3,23 @@ description:
   Form is used for sign in/sign up page and payment page.
 
 patterns:
-  Autocomplete:
-    title: "autocomplete"
+  autocomplete:
+    title: "Autocomplete"
     description:
-      It is for provide input
-  Email:
-    title: "email"
+      It is for location input such as province.
+  email:
+    title: "Email"
     description:
       It is for email input
+  password:
+    title: "Password"
+    description:
+      This form is used for password input.
+  radio:
+    title: "Radio"
+    description:
+      This is used for choosing between payment method.
+  name:
+    title: "Name"
+    description:
+      This is text field which is used for text input like name, address.
