@@ -8,6 +8,11 @@ patterns:
     description:
       Default to using the basic button. It should always be used in front of light backgrounds.
     width: "12em"
+  ghost:
+    title: "Ghost"
+    description:
+      The ghost button is specifically for banners, where it will be placed in front of busy iamges.
+    background: "--color-whatever"
     fields:
       - name: text
         type: string
@@ -15,11 +20,6 @@ patterns:
       - name: url
         type: url
         example: "/shop/"
-  ghost:
-    title: "Ghost"
-    description:
-      The ghost button is specifically for banners, where it will be placed in front of busy iamges.
-    background: "--color-whatever"
   light:
     title: "Light"
     description:
