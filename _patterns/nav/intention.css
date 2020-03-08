@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.tree-nav {
+  color: var(--color-accent);
+}
+
+.tree-nav:hover {
+  color: var(--color-primary);
+}
+
+.tree-nav:focus {
+  color: var(--color-primary);
+}
+
+.success {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.creativity {
+  padding-right: 4em;
+}
+
+.love {
+  padding-right: 4em;
+}
+
+span {
+  color: var(--color-accent);
+}

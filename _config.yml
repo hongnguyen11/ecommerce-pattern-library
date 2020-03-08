@@ -18,3 +18,5 @@ patternbot:
       The primary colours represent earth and nature. They should be used for text and in foregrounds.
     colors.secondary:
       The secondary colours are more neutral, supporting the earth tones, and should be used for small elements.
+  layouts:
+    default: The default layout should be used for almost every page, it includes the website's primary header & footer.

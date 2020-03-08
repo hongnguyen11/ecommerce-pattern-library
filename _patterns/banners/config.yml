@@ -7,6 +7,21 @@ patterns:
     title: "Homepage"
     description:
       This banner is used for homepage. It is located on top of homepage.
+    fields:
+      - name: heading
+        type: string
+        example: "Healing energy crystals"
+      - name: text
+        type: string
+        example: "Check out crystals of this month"
+      - name: button_text
+        type: string
+        example: "See collection"
+        required: false
+      - name: button_url
+        type: font_url
+        example: "/shop/"
+        required: false
   quiz:
     title: "Quiz"
     description:

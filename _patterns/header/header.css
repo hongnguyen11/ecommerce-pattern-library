@@ -1,0 +1,40 @@
+.header {
+  color: var(--color-accent);
+}
+
+.header:hover {
+  color: var(--color-primary);
+}
+
+.logo-header {
+  width: 25%;
+}
+
+.shop {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.cart {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.search-icon {
+  top: 13px;
+  left: 105px;
+}
+
+.searchline {
+  width: 120px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: solid .25px var(--color-accent);
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
+}

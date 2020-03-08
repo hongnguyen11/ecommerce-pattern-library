@@ -8,6 +8,13 @@ patterns:
     description:
       Default to using the basic button. It should always be used in front of light backgrounds.
     width: "12em"
+    fields:
+      - name: text
+        type: string
+        example: "See collection"
+      - name: url
+        type: url
+        example: "/shop/"
   ghost:
     title: "Ghost"
     description:
