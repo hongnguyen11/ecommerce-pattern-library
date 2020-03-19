@@ -1,8 +1,11 @@
 <div class="banner-homepage">
-  <img class="img-flex" src="/images/homepage-banner.jpg" alt="">
-  <div class="banner-content">
-    <h1></h1>
-    <p></p>
+  <img class="img-flex" src="/images/{{include.image}}" alt="">
+  <div class="banner-content island">
+    <h1 class="peta push-1-2">{{include.heading}}</h1>
+    <p class="giga">{{include.text}}</p>
+    {% if include.button_url %}
+      {% pattern buttons/ghost url=include.button_url text=include.button_text %}
+    {% endif %}
   </div>
 
 </div>

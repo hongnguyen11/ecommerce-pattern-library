@@ -1,3 +1,7 @@
 .logo-footer {
   width: 5em;
 }
+
+footer {
+  background-color: var(--color-whatever);
+}

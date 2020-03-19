@@ -2,12 +2,6 @@
   position: relative;
 }
 
-.banner-content {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-}
-
 .banner-quiz {
   position: relative;
 }
@@ -16,4 +10,22 @@
   position: absolute;
   top: 120px;
   left: 300px;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-content {
+    position: absolute;
+    bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-content {
+    bottom: 5rem;
+    left: 5rem;
+  }
+
 }

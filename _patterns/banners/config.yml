@@ -3,10 +3,25 @@ description:
   Banners is used for some top of homepage and detail pages.
 
 patterns:
-  banner:
-    title: "Banner"
+  homepage:
+    title: "Homepage"
     description:
       This banner is used for homepage. It is located on top of homepage.
+    fields:
+      - name: button_text
+        type: string
+        example: "See collection"
+        required: false
+      - name: button_url
+        type: url
+        example: "/shop/"
+        required: false
+      - name: image
+        type: string
+        example: homepage-banner
+      - name: image
+        type: string
+        example: product-banner
   quiz:
     title: "Quiz"
     description:
