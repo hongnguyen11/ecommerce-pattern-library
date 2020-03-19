@@ -20,3 +20,11 @@ patternbot:
       The secondary colours are more neutral, supporting the earth tones, and should be used for small elements.
   layouts:
     default: The default layout should be used for almost every page, it includes the website's primary header & footer.
+collections:
+  products:
+    output: true
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product
