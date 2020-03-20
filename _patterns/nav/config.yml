@@ -1,0 +1,12 @@
+title: Navigation
+description:
+  These navigation are used on homepage and product page
+patterns:
+  shop-tree-nav:
+    title: Shop tree nav
+    description:
+      This navigation is used on product page, it is a side bar navigation.
+  intention:
+    title: Intention
+    description:
+      This navigation is used on homepage, right after homepage banner.
