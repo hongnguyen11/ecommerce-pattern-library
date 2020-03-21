@@ -19,3 +19,11 @@ patterns:
       - name: name
         type: string
         example: "Best sellers"
+  allproducts:
+    title: "All products"
+    description:
+      It is displayed on shop page.
+    fields:
+      - name: title
+        type: string
+        example: "All products"
