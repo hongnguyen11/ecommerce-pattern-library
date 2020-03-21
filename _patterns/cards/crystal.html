@@ -1,9 +1,10 @@
 <a class="card-box" href="#">
   <div class="card text-center">
     <img class="img-flex" src="{{include.data.image}}" alt="image of a blue lace agate slice">
-    <h2 class="pad-t push-0">{{include.data.name}}</h2>
+    <h4 class="pad-t push-0">{{include.data.name}}</h4>
     <p class="typeofstone push-1-2">{{include.data.intention}}</p>
     <p class="price giga">{{include.data.price}}</p>
+    {% pattern buttons/basic text="Buy now" url=include.data.url %}
   </div>
 </a>
 

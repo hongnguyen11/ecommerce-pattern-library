@@ -1,0 +1,21 @@
+title: "Sections"
+description:
+  Sections are used on homapage and product page.
+
+patterns:
+  intention:
+    title: "Intention"
+    description:
+      This section is used on homepage.
+    fields:
+      - name: title
+        type: string
+        example: "Intention"
+  bestseller:
+    title: "Best sellers"
+    description:
+      It is only displayed on homepage.
+    fields:
+      - name: name
+        type: string
+        example: "Best sellers"
