@@ -1,3 +1,13 @@
 title: "Cards"
 description:
   This is the product card which is used for showing product picture information and it is on homepage, product list page.
+patterns:
+  product-card:
+    width: 400
+    description: This is a product card on product page
+  fields:
+    - name: data
+      type: object
+      data:
+        source: "site.products[blue-lace-agate-slice]"
+        type: Product

@@ -5,7 +5,7 @@ image: "/images/blue-lace.jpg"
 price: $26.95
 availability: "In stock"
 origin: "Namibia"
-intention: "Balance"
+intention: "Spiritual Growth"
 size:
   - "About 4 in - 5 in"
 ---

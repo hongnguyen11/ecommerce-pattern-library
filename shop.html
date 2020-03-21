@@ -4,3 +4,6 @@ highlight_nav: shop
 ---
 
 {% pattern banners/homepage image="product-banner-2.jpg" heading="Brilliant, stunning, bright" text="Explore our editor's picks!" %}
+{% for product in site.products %}
+  {% pattern cards/crystal data=product %}
+{% endfor %}
