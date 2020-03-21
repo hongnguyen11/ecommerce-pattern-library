@@ -58,7 +58,7 @@ https://hong219818.invisionapp.com/freehand/Jadie-Ecommerce-Website-uNEjn9HF5?v=
 
 © Hong Nguyen
 
-Licensed under the [MIT License] (LICENSE)
+Licensed under the [MIT License](LICENSE)
 
 ---
 
