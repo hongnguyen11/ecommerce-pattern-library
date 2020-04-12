@@ -27,11 +27,3 @@ patterns:
       - name: title
         type: string
         example: "All products"
-  allproducts:
-    title: "All products"
-    description:
-      It is displayed on shop page.
-    fields:
-      - name: title
-        type: string
-        example: "All products"

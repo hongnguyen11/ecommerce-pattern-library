@@ -1,3 +1,9 @@
 input {
   max-width: 15em;
 }
+
+#quantity {
+  width: 4em;
+  border-radius: 5px;
+  border-width: thin;
+}

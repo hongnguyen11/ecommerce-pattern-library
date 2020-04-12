@@ -2,17 +2,30 @@
 layout: default
 ---
 
-<div class="grid">
+<div class="grid wrapper island">
   <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] product-image">
     <img src="{{page.image}}" alt="page.name">
   </div>
   <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
     <h1>{{page.name}}</h1>
+    <p class="tera price">{{page.price}}</p>
+    <div class="push milli">
+      {% pattern form/quality %}
+    </div>
     <p>{{page.description}}</p>
-    <p>{{page.price}}</p>
-    <p>{{page.availability}}</p>
-    <p>{{page.origin}}</p>
-    <p>{{page.intention}}</p>
-    <p>{{page.size}}</p>
+    <dl class="list-group-inline">
+      <dt class="bold milli">Availability:</dt>
+      <dd class="milli">{{page.availability}}</dd>
+      <dt class="bold milli">Origin:</dt>
+      <dd class="milli">{{page.origin}}</dd>
+      <dt class="bold milli">Size:</dt>
+      <dd class="milli">{{page.size}}</dd>
+      <dt class="bold milli">Intention:</dt>
+      <dd class="milli text-upper bold">{{page.intention}}</dd>
+    </dl>
+    <div class="push">
+      {% pattern buttons/basic text="Add to cart" url="/product/" %}
+    </div>
+
   </div>
 </div>
