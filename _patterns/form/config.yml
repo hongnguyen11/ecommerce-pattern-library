@@ -19,7 +19,14 @@ patterns:
     title: "Radio"
     description:
       This is used for choosing between payment method.
-  name:
-    title: "Name"
+  text:
+    title: "Text"
     description:
       This is text field which is used for text input like name, address.
+    fields:
+      - name: field-name
+        type: string
+        example: "Name"
+      - name: field-error
+        type: string
+        example: "Please provide your name."
