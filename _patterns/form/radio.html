@@ -1,7 +1,8 @@
-<fieldset>
+<fieldset class="max-length">
   <legend>Payment method</legend>
-  <input type="radio" id="paypal" name="payment-method">
+  <input type="radio" id="paypal" name="payment-method" required aria-describedby="text-error">
   <label for="paypal">Paypal</label>
-  <input type="radio" id="visa" name="payment-method">
+  <input type="radio" id="visa" name="payment-method" required aria-describedby="text-error">
   <label for="visa">Visa Debit/Credit</label>
+  <p class="error-message milli island-1-4 push-0" id="text-error">(!) Please prodive this information.</p>
 </fieldset>

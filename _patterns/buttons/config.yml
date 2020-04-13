@@ -31,3 +31,11 @@ patterns:
     title: "Light"
     description:
       The light button is mainly used for open more content on the page.
+  checkout:
+    title: "Checkout"
+    description:
+      This button is used for checkout page.
+    fields:
+      - name: text
+        type: string
+        example: "Checkout"
