@@ -1,20 +1,25 @@
 ---
 layout: default
-highlight_nav: shop
 ---
 
-<h1>Check out</h1>
-{% pattern form/text field-name="Full Name" field-error="Please provide your full name." %}
-{% pattern form/email %}
-{% pattern form/text field-name="Address" field-error="Please provide your address." %}
-{% pattern form/text field-name="City" field-error="Please provide your city." %}
-{% pattern form/autocomplete %}
-{% pattern form/text field-name="Postal Code" field-error="Please provide your postal code." %}
-{% pattern form/text field-name="Phone Number" field-error="Please provide your phone number." %}
-{% pattern form/radio %}
-{% pattern form/text field-name="First Name" field-error="Please provide your first name." %}
-{% pattern form/text field-name="Last Name" field-error="Please provide your last name." %}
-{% pattern form/text field-name="Debit/Credit Card Number" field-error="Please provide your card number." %}
-{% pattern form/text field-name="CVV" field-error="Please provide your CVV." %}
-{% pattern form/text field-name="Expiration Date" field-error="Please provide your expiration day." %}
-{% pattern buttons/checkout text="Checkout" %}
+<h1 class="text-center pad-t-2">Check out</h1>
+<form class="island" method="post" action="#" novalidate>
+  {% pattern form/text field-name="Full Name" field-error="Please provide your full name." %}
+  {% pattern form/email %}
+  {% pattern form/text field-name="Address" field-error="Please provide your address." %}
+  {% pattern form/text field-name="City" field-error="Please provide your city." %}
+  {% pattern form/autocomplete %}
+  {% pattern form/text field-name="Postal Code" field-error="Please provide your postal code." %}
+  {% pattern form/text field-name="Phone Number" field-error="Please provide your phone number." %}
+  {% pattern form/radio %}
+  {% pattern form/text field-name="First Name" field-error="Please provide your first name." %}
+  {% pattern form/text field-name="Last Name" field-error="Please provide your last name." %}
+  {% pattern form/text field-name="Debit/Credit Card Number" field-error="Please provide your card number." %}
+  {% pattern form/text field-name="CVV" field-error="Please provide your CVV." %}
+  {% pattern form/text field-name="Expiration Date" field-error="Please provide your expiration day." %}
+  <div class="text-center island">
+    {% pattern buttons/checkout text="Checkout" %}
+  </div>
+</form>
+
+<script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
