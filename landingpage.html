@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<h1 class="text-center price pad-t-2">Find your inner peace with Jadie</h1>
+{% pattern banners/homepage image="landing-banner.jpg" button_text="Learn more" button_url="/shop/" heading="50% off + Free Shipping for first order" text="Explore our editor's picks for this season!" %}
+<div class="grid gutter-2 pad-b-2 wrapper">
+  {% for product in site.products limit:2 %}
+  <div class="unit [ xs-1 s-1 m-1-2 ] island-1-4">
+    {% pattern cards/crystal data=product %}
+  </div>
+  {% endfor %}
+</div>
+<!-- <h2 class="text-center">Pricing Table</h2> -->
+<table class="wrapper push-2">
+  <thead>
+    <tr>
+      <th scope="col">Quantity</th>
+      <th scope="col">Price/Each</th>
+      <th scope="col">Discount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1–10</strong></td>
+      <td>As listed</td>
+      <td>5% (Free shipping for first order)</td>
+    </tr>
+    <tr>
+      <td><strong>11–49</strong></td>
+      <td>$10.49</td>
+      <td>10% (Free shipping for first order)</td>
+    </tr>
+    <tr>
+      <td><strong>50–100</strong></td>
+      <td>$9.99</td>
+      <td>15% + Free shipping</td>
+    </tr>
+    <tr>
+      <td><strong>100–500</strong></td>
+      <td>$8.25</td>
+      <td>20% + Free shipping</td>
+    </tr>
+    <tr>
+      <td><strong>500+</strong></td>
+      <td>$6.99</td>
+      <td>25% + Free shipping</td>
+    </tr>
+  </tbody>
+</table>
+<h3 class="text-center">Email newsletter sign up</h3>
+<!-- {% pattern banners/homepage image="email-banner.jpg" button_text="Learn more" button_url="/shop/" text="Subscribe to receive our promotion" %} -->
+{% pattern form/email %}
+<div class="text-center island">
+  {% pattern buttons/checkout text="Sign me up!" %}
+</div>
